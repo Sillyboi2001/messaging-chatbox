@@ -7,7 +7,7 @@ export const AuthenticationLayout = () => {
       <Card.Body>
         <Outlet />
       </Card.Body>
-      <Card.Below>Sign</Card.Below>
+      <Card.Below></Card.Below>
     </Card>
   )
 }

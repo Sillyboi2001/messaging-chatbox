@@ -15,8 +15,8 @@ export const Signup = () => {
         <label htmlFor="name">Name</label>
         <Input id="name" required ref={nameRef}/>
         <label htmlFor="password">Password</label>
-        <Input id="password" required ref={passwordRef}/>
-        <Button type="submit" className="col-span-full">Sign Up</Button>
+        <Input type="password" id="password" required ref={passwordRef}/>
+        <Button type="submit" className="col-span-full">Create An Account</Button>
       </form>
     </>
   )
